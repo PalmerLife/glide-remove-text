@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "column",
+    "name": "Text Removal",
+    "description": "Removes specified text from an initial string.",
+    "author": "Your Name <your@email.com>",
+    "params": [
+      {
+        "name": "initialString",
+        "displayName": "Initial String",
+        "type": "string"
+      },
+      {
+        "name": "textToRemove",
+        "displayName": "Text to Remove",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
